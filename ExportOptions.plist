@@ -11,9 +11,9 @@
 		<key>appURL</key>
 		<string>https://greghe.github.io/skillz.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://greghe.github.io/skillzl_57x57.png</string>
+		<string>https://greghe.github.io/skillz_57x57.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://greghe.github.io/skillzl_512x512.png</string>
+		<string>https://greghe.github.io/skillz_512x512.png</string>
 	</dict>
 	<key>method</key>
 	<string>development</string>
