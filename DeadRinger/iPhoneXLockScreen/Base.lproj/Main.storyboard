@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iPhoneXLockScreen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SkillzApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,7 +74,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view alpha="0.0" contentMode="scaleToFill" id="gtv-Ba-0vs" customClass="PasscodeDotsView" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                            <view alpha="0.0" contentMode="scaleToFill" id="gtv-Ba-0vs" customClass="PasscodeDotsView" customModule="SkillzApp" customModuleProvider="target">
                                 <rect key="frame" x="87" y="235" width="240" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <subviews>
@@ -113,11 +113,11 @@
                                     <outlet property="dot6" destination="kCQ-jr-v9Q" id="00q-TH-xSs"/>
                                 </connections>
                             </view>
-                            <view alpha="0.0" contentMode="scaleToFill" id="4Fd-ld-0Xc" customClass="KeypadView" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                            <view alpha="0.0" contentMode="scaleToFill" id="4Fd-ld-0Xc" customClass="KeypadView" customModule="SkillzApp" customModuleProvider="target">
                                 <rect key="frame" x="57" y="329" width="302" height="420"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="O9v-6k-5OL" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="O9v-6k-5OL" customClass="KeypadButton" customModule="SkillzApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="84" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
@@ -138,7 +138,7 @@
                                             <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="OR0-QK-Itf"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="1A7-ru-1xC" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="1A7-ru-1xC" customClass="KeypadButton" customModule="SkillzApp" customModuleProvider="target">
                                         <rect key="frame" x="109" y="0.0" width="84" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
@@ -159,7 +159,7 @@
                                             <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="jdP-iJ-hSw"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="iX1-5E-oi6" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="iX1-5E-oi6" customClass="KeypadButton" customModule="SkillzApp" customModuleProvider="target">
                                         <rect key="frame" x="218" y="0.0" width="84" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
@@ -180,7 +180,7 @@
                                             <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="Qlb-sC-RMt"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Lga-1x-dKN" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Lga-1x-dKN" customClass="KeypadButton" customModule="SkillzApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="102" width="84" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
@@ -201,7 +201,7 @@
                                             <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="hKd-IP-TWr"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="F6w-1L-joH" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="F6w-1L-joH" customClass="KeypadButton" customModule="SkillzApp" customModuleProvider="target">
                                         <rect key="frame" x="109" y="102" width="84" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
@@ -222,7 +222,7 @@
                                             <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="ApV-u9-OvC"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="v0t-Mc-6A8" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="v0t-Mc-6A8" customClass="KeypadButton" customModule="SkillzApp" customModuleProvider="target">
                                         <rect key="frame" x="218" y="102" width="84" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
@@ -243,7 +243,7 @@
                                             <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="J3S-HT-9Xy"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="gaP-Im-l2r" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="gaP-Im-l2r" customClass="KeypadButton" customModule="SkillzApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="204" width="84" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
@@ -264,7 +264,7 @@
                                             <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="0IW-c4-7kW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="MLQ-a9-UNv" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="MLQ-a9-UNv" customClass="KeypadButton" customModule="SkillzApp" customModuleProvider="target">
                                         <rect key="frame" x="109" y="204" width="84" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
@@ -285,7 +285,7 @@
                                             <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="exh-94-Jvf"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="QfC-OD-NMV" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="QfC-OD-NMV" customClass="KeypadButton" customModule="SkillzApp" customModuleProvider="target">
                                         <rect key="frame" x="218" y="204" width="84" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
@@ -306,7 +306,7 @@
                                             <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="xYY-Xz-CiX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="1bv-xe-Zvt" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="1bv-xe-Zvt" customClass="KeypadButton" customModule="SkillzApp" customModuleProvider="target">
                                         <rect key="frame" x="109" y="306" width="84" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
@@ -374,6 +374,10 @@
                                     <outletCollection property="gestureRecognizers" destination="ddS-R9-Nh5" appends="YES" id="co0-On-bQ3"/>
                                 </connections>
                             </view>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" id="EWb-MV-aNQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -389,6 +393,7 @@
                         <outlet property="passcodeDetailLabel" destination="x40-KO-4t1" id="OWD-ue-Qid"/>
                         <outlet property="passcodeDotsView" destination="gtv-Ba-0vs" id="vpM-jT-b8K"/>
                         <outlet property="passcodeKeypadView" destination="4Fd-ld-0Xc" id="3Uw-Uw-Mpf"/>
+                        <outlet property="splashScreen" destination="EWb-MV-aNQ" id="ggx-kH-iFF"/>
                         <outlet property="timeLabel" destination="35s-v4-Q2e" id="sGv-t0-xU4"/>
                     </connections>
                 </viewController>
@@ -411,7 +416,8 @@
         <image name="camera" width="29.666666030883789" height="29.666666030883789"/>
         <image name="dotopen" width="14.333333015441895" height="14.333333015441895"/>
         <image name="flashlight" width="27.333333969116211" height="27.333333969116211"/>
-        <image name="greenwallpaper" width="56" height="100"/>
+        <image name="greenwallpaper" width="148" height="264.66665649414062"/>
+        <image name="loading" width="640" height="960"/>
         <image name="lock" width="41" height="40.666667938232422"/>
     </resources>
 </document>

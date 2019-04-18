@@ -40,6 +40,9 @@ class ViewController: UIViewController {
     @IBOutlet var passcodeKeypadView: KeypadView!
     @IBOutlet var emergencyButton: UIButton!
     @IBOutlet var cancelButton: UIButton!
+    @IBOutlet var splashScreen: UIImageView!
+    
+    
     
     var tiltActionTimer : Timer?
     
@@ -106,6 +109,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if (UserDefaults.standard.bool(forKey:"Done")) {
+            self.splashScreen.isHidden = false
+            return;
+            // exit(0)
+            // return false //
+        }
         setTimeAndDate()
         
         // In case the minute or date changes

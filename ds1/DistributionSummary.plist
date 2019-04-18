@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Profile.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>35717B34A745F1FACD0F6DA24D81B56FD4001D9D</string>
+				<key>dateExpires</key>
+				<string>9/19/20</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>35717B34A745F1FACD0F6DA24D81B56FD4001D9D</string>
+						<key>dateExpires</key>
+						<string>9/19/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Skillz.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ST3D4JRYHA</string>
+						<key>name</key>
+						<string>Skillz Inc</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>ST3D4JRYHA.com.pocketcandy.enterprise.diamondstrikefree</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.associated-domains</key>
+				<array>
+					<string>webcredentials:skillz.com</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>ST3D4JRYHA</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>DiamondStrike.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>ec8fb5c1-791f-497e-96f4-fdf0ee026840</string>
+				<key>name</key>
+				<string>iOS Team Inhouse Provisioning Profile: com.pocketcandy.enterprise.diamondstrikefree</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>ST3D4JRYHA</string>
+				<key>name</key>
+				<string>Skillz Inc</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
