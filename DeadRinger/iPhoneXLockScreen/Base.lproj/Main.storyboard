@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iPhoneXLockScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenwallpaper" id="vMI-xG-6pu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Aoe-4n-9AF" appends="YES" id="8zT-y0-1ka"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="M6g-ou-yXQ">
+                                <rect key="frame" x="318" y="796" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.26658818490000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="camera"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:09" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="35s-v4-Q2e">
+                                <rect key="frame" x="104" y="99" width="206" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday, November 29" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nnL-4M-VHP">
+                                <rect key="frame" x="81.666666666666686" y="190" width="251" height="26.333333333333343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="S8o-he-AMB">
+                                <rect key="frame" x="46" y="796" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.26658818493150682" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="flashlight"/>
+                            </button>
+                            <visualEffectView opaque="NO" alpha="0.0" contentMode="scaleToFill" id="0jl-Fg-aie">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="895"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="6K1-it-cYJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="895"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Passcode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="avi-dm-SRe">
+                                <rect key="frame" x="133.66666666666666" y="158" width="146.99999999999997" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your passcode is required to enable Face ID" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x40-KO-4t1">
+                                <rect key="frame" x="113.66666666666669" y="194" width="187" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.0" contentMode="scaleToFill" id="gtv-Ba-0vs" customClass="PasscodeDotsView" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="87" y="235" width="240" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dotopen" id="tZe-2t-4u9">
+                                        <rect key="frame" x="20" y="6.6666666666666572" width="16" height="16.000000000000004"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dotopen" id="LLd-mv-PGd">
+                                        <rect key="frame" x="57" y="6.6666666666666572" width="16" height="16.000000000000004"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dotopen" id="XyT-RI-5Ac">
+                                        <rect key="frame" x="94" y="6.6666666666666572" width="16" height="16.000000000000004"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dotopen" id="4Cx-CV-xIp">
+                                        <rect key="frame" x="131" y="6.6666666666666572" width="16" height="16.000000000000004"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dotopen" id="pSz-iF-zbu">
+                                        <rect key="frame" x="168" y="6.6666666666666572" width="16" height="16.000000000000004"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dotopen" id="kCQ-jr-v9Q">
+                                        <rect key="frame" x="205" y="6.6666666666666572" width="16" height="16.000000000000004"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dot1" destination="tZe-2t-4u9" id="cuD-XJ-P8m"/>
+                                    <outlet property="dot2" destination="LLd-mv-PGd" id="DvP-6j-mMj"/>
+                                    <outlet property="dot3" destination="XyT-RI-5Ac" id="n7M-Yh-Bzq"/>
+                                    <outlet property="dot4" destination="4Cx-CV-xIp" id="yNv-tq-GFz"/>
+                                    <outlet property="dot5" destination="pSz-iF-zbu" id="cqI-JL-7eK"/>
+                                    <outlet property="dot6" destination="kCQ-jr-v9Q" id="00q-TH-xSs"/>
+                                </connections>
+                            </view>
+                            <view alpha="0.0" contentMode="scaleToFill" id="4Fd-ld-0Xc" customClass="KeypadView" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                <rect key="frame" x="57" y="329" width="302" height="420"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="O9v-6k-5OL" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="84" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Button">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" metaFont="system" size="18"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="OR0-QK-Itf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="1A7-ru-1xC" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                        <rect key="frame" x="109" y="0.0" width="84" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Button">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" metaFont="system" size="18"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="jdP-iJ-hSw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="iX1-5E-oi6" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                        <rect key="frame" x="218" y="0.0" width="84" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Button">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" metaFont="system" size="18"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="Qlb-sC-RMt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Lga-1x-dKN" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="102" width="84" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Button">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" metaFont="system" size="18"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="hKd-IP-TWr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="F6w-1L-joH" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                        <rect key="frame" x="109" y="102" width="84" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Button">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" metaFont="system" size="18"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="ApV-u9-OvC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="v0t-Mc-6A8" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                        <rect key="frame" x="218" y="102" width="84" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Button">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" metaFont="system" size="18"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="J3S-HT-9Xy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="gaP-Im-l2r" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="204" width="84" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Button">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" metaFont="system" size="18"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="0IW-c4-7kW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="MLQ-a9-UNv" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                        <rect key="frame" x="109" y="204" width="84" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Button">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" metaFont="system" size="18"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="exh-94-Jvf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="QfC-OD-NMV" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                        <rect key="frame" x="218" y="204" width="84" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Button">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" metaFont="system" size="18"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="xYY-Xz-CiX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="1bv-xe-Zvt" customClass="KeypadButton" customModule="iPhoneXLockScreen" customModuleProvider="target">
+                                        <rect key="frame" x="109" y="306" width="84" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Button">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" metaFont="system" size="18"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="coolString" value="ABC"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="keypadButtonPressed:" destination="4Fd-ld-0Xc" eventType="touchUpInside" id="DFb-Li-pta"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="eightButton" destination="MLQ-a9-UNv" id="3cn-tI-gYB"/>
+                                    <outlet property="fiveButton" destination="F6w-1L-joH" id="6aq-IB-tHu"/>
+                                    <outlet property="fourButton" destination="Lga-1x-dKN" id="a7w-HT-fQF"/>
+                                    <outlet property="nineButton" destination="QfC-OD-NMV" id="oCf-t9-n8u"/>
+                                    <outlet property="oneButton" destination="O9v-6k-5OL" id="Fsl-6l-QiZ"/>
+                                    <outlet property="sevenButton" destination="gaP-Im-l2r" id="m0f-ui-Dqb"/>
+                                    <outlet property="sixButton" destination="v0t-Mc-6A8" id="DmG-qy-Yuc"/>
+                                    <outlet property="threeButton" destination="iX1-5E-oi6" id="qGI-gP-qDi"/>
+                                    <outlet property="twoButton" destination="1A7-ru-1xC" id="Xy5-28-aQi"/>
+                                    <outlet property="zeroButton" destination="1bv-xe-Zvt" id="vYF-0D-u6o"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="K2m-12-Gcg">
+                                <rect key="frame" x="44" y="817" width="87" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Emergency">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WId-v3-K01">
+                                <rect key="frame" x="302" y="817" width="53" height="33"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A9d-Dc-fMZ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" id="duD-7f-8H3">
+                                <rect key="frame" x="187" y="55" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view alpha="0.0" contentMode="scaleToFill" id="Ccy-Ch-xwH">
+                                <rect key="frame" x="-1" y="-113" width="416" height="1121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ddS-R9-Nh5" appends="YES" id="co0-On-bQ3"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="cameraButton" destination="M6g-ou-yXQ" id="TY8-Pa-R5k"/>
+                        <outlet property="cancelButton" destination="WId-v3-K01" id="8rX-gO-2Sc"/>
+                        <outlet property="darkBlurView" destination="0jl-Fg-aie" id="nle-YO-pfW"/>
+                        <outlet property="dateLabel" destination="nnL-4M-VHP" id="413-T2-w1S"/>
+                        <outlet property="emergencyButton" destination="K2m-12-Gcg" id="hqp-20-O91"/>
+                        <outlet property="enterPasscodeLabel" destination="avi-dm-SRe" id="ozJ-Zp-sHQ"/>
+                        <outlet property="flashlightButton" destination="S8o-he-AMB" id="fRh-CO-Ysp"/>
+                        <outlet property="inactiveView" destination="Ccy-Ch-xwH" id="fR9-yw-3tq"/>
+                        <outlet property="passcodeDetailLabel" destination="x40-KO-4t1" id="OWD-ue-Qid"/>
+                        <outlet property="passcodeDotsView" destination="gtv-Ba-0vs" id="vpM-jT-b8K"/>
+                        <outlet property="passcodeKeypadView" destination="4Fd-ld-0Xc" id="3Uw-Uw-Mpf"/>
+                        <outlet property="timeLabel" destination="35s-v4-Q2e" id="sGv-t0-xU4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ddS-R9-Nh5">
+                    <connections>
+                        <action selector="inactiveScreenTapped:" destination="BYZ-38-t0r" id="5sp-xb-uQv"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Aoe-4n-9AF">
+                    <connections>
+                        <action selector="lockedScreenBackgroundTapped:" destination="BYZ-38-t0r" id="uFh-hs-5zs"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="21.739130434782609" y="52.901785714285715"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera" width="29.666666030883789" height="29.666666030883789"/>
+        <image name="dotopen" width="14.333333015441895" height="14.333333015441895"/>
+        <image name="flashlight" width="27.333333969116211" height="27.333333969116211"/>
+        <image name="greenwallpaper" width="56" height="100"/>
+        <image name="lock" width="41" height="40.666667938232422"/>
+    </resources>
+</document>
